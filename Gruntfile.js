@@ -112,7 +112,7 @@ module.exports = function (grunt) { // jshint ignore:line
     // Uglify task info. Compress the js files.
     uglify: {
       options   : {
-        mangle : true,
+        mangle : false,
         output: {
           comments: 'some'
         },
